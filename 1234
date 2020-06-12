@@ -1,0 +1,22 @@
+package exercise.day2;
+
+import org.junit.Test;
+
+public class NiuBi {
+
+    public static void main(String[] args) {
+        Object m1 = new String("100");
+        System.out.println("100".equals(m1));
+    }
+
+    /**
+     *
+     * @param m1    String
+     * @param m2    int
+     * @return  boolean
+     */
+    public boolean lpp(String m1,int m2){
+        return m1.length() == m2;
+    }
+
+}
